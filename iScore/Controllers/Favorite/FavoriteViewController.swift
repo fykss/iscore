@@ -13,7 +13,7 @@ class FavoriteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Favorites"
+        title = K.TabBarItems.favorites
     }
     
 

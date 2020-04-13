@@ -6,4 +6,11 @@
 //  Copyright © 2020 Vladyslav Lietun. All rights reserved.
 //
 
-import Foundation
+struct K {
+    
+    
+    struct TabBarItems {
+        static let score = "Score"
+        static let favorites = "Favorites"
+    }
+}

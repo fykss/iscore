@@ -10,8 +10,6 @@ import UIKit
 
 class ScoreViewController: UIViewController {
     
-    @IBOutlet weak var horizontallyScrollableStackView: UIStackView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

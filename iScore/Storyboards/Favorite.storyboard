@@ -1,68 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="13L-db-VKL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes>
-        <!--Favorite View Controller-->
-        <scene sceneID="Chp-NU-3Nt">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L3y-N8-9Dz" sceneMemberID="firstResponder"/>
-                <viewController id="tb0-0H-nzZ" customClass="FavoriteViewController" customModule="iScore" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="x3p-LT-a9e">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Favourite View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="n8Q-JT-LC1">
-                                <rect key="frame" x="94.5" y="426.5" width="225.5" height="43"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maK-S4-BU7">
-                                <rect key="frame" x="99.5" y="477.5" width="215" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="n8Q-JT-LC1" secondAttribute="centerX" id="1YJ-e6-k2f"/>
-                            <constraint firstItem="maK-S4-BU7" firstAttribute="centerX" secondItem="n8Q-JT-LC1" secondAttribute="centerX" id="9KV-JS-lcu"/>
-                            <constraint firstAttribute="centerY" secondItem="n8Q-JT-LC1" secondAttribute="centerY" id="jpp-Nm-X8Q"/>
-                            <constraint firstItem="maK-S4-BU7" firstAttribute="top" secondItem="n8Q-JT-LC1" secondAttribute="bottom" constant="8" symbolic="YES" id="tjy-LQ-2LX"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="DNI-Dk-cfU"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="a0l-QV-u7M"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="1658" y="361"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="OwI-ZR-eFr">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CJC-TB-k8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="13L-db-VKL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="QhW-Yk-54o"/>
-                    <toolbarItems/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="aSr-Ku-Nef">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="tb0-0H-nzZ" kind="relationship" relationship="rootViewController" id="4pa-hf-FwI"/>
-                    </connections>
-                </navigationController>
-            </objects>
-            <point key="canvasLocation" x="834.78260869565224" y="360.9375"/>
-        </scene>
-    </scenes>
+    <scenes/>
 </document>
