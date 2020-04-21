@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uYK-Om-qtZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,9 +21,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tit-un-6OO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1797" y="998"/>
+            <point key="canvasLocation" x="-906" y="998"/>
         </scene>
-        <!--Explore-->
+        <!--Scores-->
         <scene sceneID="5Nr-c7-ps5">
             <objects>
                 <viewController id="Vvf-Wu-lBW" sceneMemberID="viewController">
@@ -33,11 +33,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="J5v-uj-cz4"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Explore" id="Tpn-jg-xbG"/>
+                    <navigationItem key="navigationItem" title="Scores" id="Tpn-jg-xbG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4z-ma-hg9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-906" y="998"/>
+            <point key="canvasLocation" x="-1799" y="998"/>
         </scene>
         <!--News-->
         <scene sceneID="bsh-ls-r9V">
@@ -55,17 +55,17 @@
             </objects>
             <point key="canvasLocation" x="-29" y="998"/>
         </scene>
-        <!--Score-->
+        <!--Browse-->
         <scene sceneID="15x-Fe-aeT">
             <objects>
-                <viewController id="UnC-Ag-drg" customClass="ScoreViewController" customModule="iScore" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UnC-Ag-drg" customClass="BrowseViewController" customModule="iScore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6im-s4-AdB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ZSi-PD-sgn"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Score" id="4E6-Ee-vjv"/>
+                    <navigationItem key="navigationItem" title="Browse" id="4E6-Ee-vjv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b7E-Av-qMQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -74,7 +74,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="biY-5t-68A">
             <objects>
-                <tabBarController id="uYK-Om-qtZ" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uYK-Om-qtZ" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5wp-f0-Twy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -82,8 +82,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="DPm-lx-LdP" kind="relationship" relationship="viewControllers" id="671-RK-y37"/>
-                        <segue destination="aFR-rx-BIg" kind="relationship" relationship="viewControllers" id="uCN-3g-yTA"/>
                         <segue destination="BLs-5f-UKF" kind="relationship" relationship="viewControllers" id="0fk-Na-pyc"/>
+                        <segue destination="aFR-rx-BIg" kind="relationship" relationship="viewControllers" id="uCN-3g-yTA"/>
                         <segue destination="ykc-e9-ZGT" kind="relationship" relationship="viewControllers" id="DTN-qa-f3d"/>
                     </connections>
                 </tabBarController>
@@ -91,11 +91,11 @@
             </objects>
             <point key="canvasLocation" x="-1364" y="-455"/>
         </scene>
-        <!--Score-->
+        <!--Browses-->
         <scene sceneID="u4h-xc-P8G">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DPm-lx-LdP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Score" image="circle.grid.2x2" catalog="system" id="pbm-Xb-b4F"/>
+                    <tabBarItem key="tabBarItem" title="Browses" image="circle.grid.2x2.fill" catalog="system" id="pbm-Xb-b4F"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="8eh-kg-hcw">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -110,11 +110,11 @@
             </objects>
             <point key="canvasLocation" x="-2691" y="274"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Favorites-->
         <scene sceneID="Uwp-5b-aiG">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aFR-rx-BIg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="llr-t4-vSc"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="star.fill" catalog="system" id="llr-t4-vSc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="7Ir-H4-ad0">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -127,13 +127,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3j-yr-Exm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1797" y="274"/>
+            <point key="canvasLocation" x="-906" y="274"/>
         </scene>
-        <!--Explore-->
+        <!--Scores-->
         <scene sceneID="XSV-yL-a2B">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BLs-5f-UKF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Explore" image="safari.fill" catalog="system" id="xKe-iR-XE4"/>
+                    <tabBarItem key="tabBarItem" title="Scores" image="sportscourt.fill" catalog="system" id="xKe-iR-XE4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="mZt-w0-ngA">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -146,13 +146,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95N-7n-oyH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-906" y="274"/>
+            <point key="canvasLocation" x="-1799" y="274"/>
         </scene>
         <!--News-->
         <scene sceneID="yWg-eH-FQz">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ykc-e9-ZGT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="News" image="book" catalog="system" id="6pW-ap-76g"/>
+                    <tabBarItem key="tabBarItem" title="News" image="table.fill" catalog="system" id="6pW-ap-76g"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="ypq-fz-ieu">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -169,8 +169,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="book" catalog="system" width="128" height="101"/>
-        <image name="circle.grid.2x2" catalog="system" width="128" height="112"/>
-        <image name="safari.fill" catalog="system" width="128" height="121"/>
+        <image name="circle.grid.2x2.fill" catalog="system" width="128" height="112"/>
+        <image name="sportscourt.fill" catalog="system" width="128" height="83"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="table.fill" catalog="system" width="128" height="93"/>
     </resources>
 </document>

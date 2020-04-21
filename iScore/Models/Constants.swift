@@ -8,7 +8,6 @@
 
 struct K {
     
-    
     struct TabBarItems {
         static let score = "Score"
         static let favorites = "Favorites"

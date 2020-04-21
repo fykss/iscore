@@ -8,23 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		9E37FF82244498B300721267 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37FF81244498B300721267 /* Constants.swift */; };
+		9E44539A244CDA2700A6CAB6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E445399244CDA2700A6CAB6 /* MainTabBarController.swift */; };
+		9E44539C244DA2B100A6CAB6 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44539B244DA2B100A6CAB6 /* BrowseViewController.swift */; };
+		9E44539E244DA35800A6CAB6 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44539D244DA35800A6CAB6 /* Section.swift */; };
+		9E4453A0244DA37E00A6CAB6 /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44539F244DA37E00A6CAB6 /* Apps.swift */; };
+		9E4453A2244DA39300A6CAB6 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4453A1244DA39300A6CAB6 /* Bundle-Decodable.swift */; };
+		9E4453A4244DA4A800A6CAB6 /* appstore.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E4453A3244DA4A800A6CAB6 /* appstore.json */; };
+		9E4453A6244DA62500A6CAB6 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4453A5244DA62500A6CAB6 /* SelfConfiguringCell.swift */; };
+		9E4453A8244DA66B00A6CAB6 /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4453A7244DA66B00A6CAB6 /* FeaturedCell.swift */; };
 		9E8E088F243B6B3F00CA9AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E088E243B6B3F00CA9AC9 /* AppDelegate.swift */; };
 		9E8E0891243B6B3F00CA9AC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E0890243B6B3F00CA9AC9 /* SceneDelegate.swift */; };
 		9E8E0898243B6B3F00CA9AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E0896243B6B3F00CA9AC9 /* Main.storyboard */; };
 		9E8E089A243B6B4400CA9AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E0899243B6B4400CA9AC9 /* Assets.xcassets */; };
-		9E8E08A8243B75BE00CA9AC9 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E08A7243B75BE00CA9AC9 /* ScoreViewController.swift */; };
 		9E8E08AC243B770900CA9AC9 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E08AB243B770900CA9AC9 /* FavoriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E37FF81244498B300721267 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9E445399244CDA2700A6CAB6 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9E44539B244DA2B100A6CAB6 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		9E44539D244DA35800A6CAB6 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		9E44539F244DA37E00A6CAB6 /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
+		9E4453A1244DA39300A6CAB6 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		9E4453A3244DA4A800A6CAB6 /* appstore.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = appstore.json; sourceTree = "<group>"; };
+		9E4453A5244DA62500A6CAB6 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		9E4453A7244DA66B00A6CAB6 /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
 		9E8E088B243B6B3F00CA9AC9 /* iScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8E088E243B6B3F00CA9AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E8E0890243B6B3F00CA9AC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E8E0897243B6B3F00CA9AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E8E0899243B6B4400CA9AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E8E089E243B6B4400CA9AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E8E08A7243B75BE00CA9AC9 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		9E8E08AB243B770900CA9AC9 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,12 +70,13 @@
 			path = Favorite;
 			sourceTree = "<group>";
 		};
-		9E37FF84244499F800721267 /* Score */ = {
+		9E37FF84244499F800721267 /* Browse */ = {
 			isa = PBXGroup;
 			children = (
-				9E8E08A7243B75BE00CA9AC9 /* ScoreViewController.swift */,
+				9E44539B244DA2B100A6CAB6 /* BrowseViewController.swift */,
+				9E4453A7244DA66B00A6CAB6 /* FeaturedCell.swift */,
 			);
-			path = Score;
+			path = Browse;
 			sourceTree = "<group>";
 		};
 		9E37FF8524449AFB00721267 /* Network */ = {
@@ -69,14 +84,6 @@
 			children = (
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		9E37FF8624449C5600721267 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9E8E0899243B6B4400CA9AC9 /* Assets.xcassets */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		9E37FF8724449C9F00721267 /* Storyboards */ = {
@@ -92,6 +99,20 @@
 			children = (
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		9E445395244C5FE800A6CAB6 /* Scores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scores;
+			sourceTree = "<group>";
+		};
+		9E445396244C600900A6CAB6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = News;
 			sourceTree = "<group>";
 		};
 		9E8E0882243B6B3F00CA9AC9 = {
@@ -118,10 +139,17 @@
 				9E8E08A4243B6BA700CA9AC9 /* Views */,
 				9E8E08A5243B6BC200CA9AC9 /* Controllers */,
 				9E37FF8724449C9F00721267 /* Storyboards */,
-				9E37FF8624449C5600721267 /* Resources */,
 				9E8E08A6243B6BD400CA9AC9 /* Supporting Files */,
+				9E8E0899243B6B4400CA9AC9 /* Assets.xcassets */,
 				9E8E088E243B6B3F00CA9AC9 /* AppDelegate.swift */,
 				9E8E0890243B6B3F00CA9AC9 /* SceneDelegate.swift */,
+				9E445399244CDA2700A6CAB6 /* MainTabBarController.swift */,
+				9E8E089E243B6B4400CA9AC9 /* Info.plist */,
+				9E44539D244DA35800A6CAB6 /* Section.swift */,
+				9E44539F244DA37E00A6CAB6 /* Apps.swift */,
+				9E4453A1244DA39300A6CAB6 /* Bundle-Decodable.swift */,
+				9E4453A3244DA4A800A6CAB6 /* appstore.json */,
+				9E4453A5244DA62500A6CAB6 /* SelfConfiguringCell.swift */,
 			);
 			path = iScore;
 			sourceTree = "<group>";
@@ -136,8 +164,10 @@
 		9E8E08A5243B6BC200CA9AC9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9E37FF84244499F800721267 /* Score */,
+				9E37FF84244499F800721267 /* Browse */,
+				9E445395244C5FE800A6CAB6 /* Scores */,
 				9E37FF83244499EF00721267 /* Favorite */,
+				9E445396244C600900A6CAB6 /* News */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -145,7 +175,6 @@
 		9E8E08A6243B6BD400CA9AC9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9E8E089E243B6B4400CA9AC9 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -209,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E8E089A243B6B4400CA9AC9 /* Assets.xcassets in Resources */,
+				9E4453A4244DA4A800A6CAB6 /* appstore.json in Resources */,
 				9E8E0898243B6B3F00CA9AC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,9 +252,15 @@
 			files = (
 				9E37FF82244498B300721267 /* Constants.swift in Sources */,
 				9E8E08AC243B770900CA9AC9 /* FavoriteViewController.swift in Sources */,
-				9E8E08A8243B75BE00CA9AC9 /* ScoreViewController.swift in Sources */,
+				9E44539A244CDA2700A6CAB6 /* MainTabBarController.swift in Sources */,
+				9E4453A6244DA62500A6CAB6 /* SelfConfiguringCell.swift in Sources */,
 				9E8E088F243B6B3F00CA9AC9 /* AppDelegate.swift in Sources */,
+				9E44539E244DA35800A6CAB6 /* Section.swift in Sources */,
+				9E4453A0244DA37E00A6CAB6 /* Apps.swift in Sources */,
+				9E4453A2244DA39300A6CAB6 /* Bundle-Decodable.swift in Sources */,
+				9E4453A8244DA66B00A6CAB6 /* FeaturedCell.swift in Sources */,
 				9E8E0891243B6B3F00CA9AC9 /* SceneDelegate.swift in Sources */,
+				9E44539C244DA2B100A6CAB6 /* BrowseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +398,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YAN4DT9JX2;
-				INFOPLIST_FILE = "iScore/Supporting Files/Info.plist";
+				INFOPLIST_FILE = iScore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lietun.iScore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -380,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YAN4DT9JX2;
-				INFOPLIST_FILE = "iScore/Supporting Files/Info.plist";
+				INFOPLIST_FILE = iScore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lietun.iScore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
